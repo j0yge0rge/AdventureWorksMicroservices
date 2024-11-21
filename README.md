@@ -1,27 +1,27 @@
 # AdventureWorksMicroservices
-
-AdventureWorksMicroservices هو مشروع لتطبيق بنية ميكروسيرفيسيز باستخدام ASP.NET Core و MS SQL Server. يهدف المشروع لتوفير واجهة API لإدارة البيانات الخاصة بمخزن AdventureWorks باستخدام تقنيات Docker و CI/CD.
+AdventureWorksMicroservices is a project to implement a microservices architecture using ASP.NET Core and MS SQL Server. The goal of the project is to provide an API interface for managing data from the AdventureWorks database using Docker and CI/CD techniques.
 
 ## Objectives
-- بناء API لاستخراج، إضافة، وتحديث البيانات في قاعدة بيانات AdventureWorks.
-- استخدام بنية Microservices لفصل الخدمات.
-- توفير عملية CI/CD باستخدام Jenkins.
+- Build an API for retrieving, adding, and updating data in the AdventureWorks database.
+- Use a Microservices architecture to decouple the services.
+- Set up CI/CD using Jenkins.
 
 ## Technologies Used
-- **ASP.NET Core**: لبناء الـ REST API.
-- **MS SQL Server**: لإدارة قاعدة البيانات.
-- **Docker**: لتشغيل التطبيق في حاويات.
-- **Jenkins**: لإعداد الـ CI/CD pipeline.
+- **ASP.NET Core**: To build the REST API.
+- **MS SQL Server**: To manage the database.
+- **Docker**: To run the application inside containers.
+- **Jenkins**: To set up the CI/CD pipeline.
 
 ## Local Setup
 
 ### Prerequisites
 - Docker
 - .NET SDK
-- SQL Server (أو يمكنك استخدام Docker لقاعدة البيانات)
+- SQL Server (or you can use Docker for the database)
 
 ### Steps
-1. استنساخ المشروع:
+1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd AdventureWorksMicroservices
+
